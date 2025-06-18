@@ -15,7 +15,7 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Adedotun Adeeko - Portfolio" />
         <meta name="twitter:description" content="Personal portfolio website showcasing my projects and skills" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Favicon.png" />
       </Head>
       <body>
         <Main />
