@@ -1,5 +1,3 @@
-import Layout from "../components/Layout";
-
 export default function Projects() {
   // Sample project data
   const projects = [
@@ -34,7 +32,7 @@ export default function Projects() {
   ];
 
   return (
-    <Layout>
+    <>
       <h1 className="text-4xl font-bold mb-6 text-blue-600 dark:text-blue-400">My Projects</h1>
       
       <p className="text-lg mb-8">
@@ -82,6 +80,6 @@ export default function Projects() {
           Get in Touch
         </a>
       </div>
-    </Layout>
+    </>
   );
 }

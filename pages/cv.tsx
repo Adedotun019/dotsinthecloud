@@ -1,8 +1,6 @@
-import Layout from "../components/Layout";
-
 export default function CV() {
   return (
-    <Layout>
+    <>
       <h1 className="text-4xl font-bold mb-4">My CV</h1>
       <p className="text-lg">
         You can{" "}
@@ -15,6 +13,6 @@ export default function CV() {
         </a>
         .
       </p>
-    </Layout>
+    </>
   );
 }

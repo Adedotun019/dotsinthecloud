@@ -1,8 +1,6 @@
-import Layout from "../components/Layout";
-
 export default function About() {
   return (
-    <Layout>
+    <>
       <h1 className="text-4xl font-bold mb-6 text-blue-600 dark:text-blue-400">About Me</h1>
       
       <div className="space-y-6">
@@ -45,6 +43,6 @@ export default function About() {
           <a href="mailto:adenzdavid35@gmail.com" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Email</a>
         </div>
       </div>
-    </Layout>
+    </>
   );
 }
